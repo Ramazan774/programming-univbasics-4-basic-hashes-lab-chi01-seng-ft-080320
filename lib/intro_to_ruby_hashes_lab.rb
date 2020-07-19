@@ -4,8 +4,8 @@ end
 
 def my_hash
  my_hash {
-   name: "Ramazan",
-   age: 26
+   :name =>"Ramazan",
+   :age=> 26
  } # return a valid hash with any key/value pair of your choice
 end
 
